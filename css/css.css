@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+body {
+	background-color: #f2f2f2;
+	font-family: "Lato";
+	font-size: 16px;
+	font-weight: 300;
+	color: #555;
+    -webkit-font-smoothing: antialiased;
+	-webkit-overflow-scrolling: touch;
+	 margin-top: 70px;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Raleway";
+  	font-weight: 300;
+	color: #333;
+}
+p {
+    line-height: 28px;
+	margin-bottom: 25px;
+}
+.centered{
+	text-align: center;
+}
+a {
+	color:#f85c37;
+} 
+a:hover, a:focus {
+	color: #7b7b7b;  
+	text-decoration: none;
+	outline: 0;
+}
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+.navbar {
+	font-weight: 800;
+	font-size: 14px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.navbar-inverse {
+	background:  #2d2d2d;
+	border-color: #2d2d2d;
+}
+.navbar-inverse .navbar-nav > .active > a {
+	background-color: #ff7878;
+}
+.navbar-inverse .navbar-brand {
+	color:#999;
+	font-weight: bolder;
+	font-size: 22px;
+	letter-spacing: 1px;
+}
+#headerwrap {
+	margin-top: 100px;
+	color: white;
+	font-size: 70px;
+	font-weight:300;
+	letter-spacing: 3px;
+
+}
+
+#headerwrap h2 {
+	color: white;
+	font-size: 40px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+#dg{
+	background-color: #e0e0e0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#g{
+	
+	padding-bottom: 20px;
+}
+#contacts{
+	
+	width:100%;
+	float:left;
+	padding-bottom:40px;
+	padding-top: 70px;
+	border-top: 4px solid #ccc;
+	background: #f4f4f4;
+}
+#form_input{
+	margin-top: 15px;
+	width: 35%;
+	margin-left:38%;
+	font-size:1.1em;
+}
+#form_input label{
+	color:#505050;
+	cursor:pointer;
+font-size:1em;
+
+}
+#form_input label>span{
+	color:#e87e87;
+}
+#form_input input,#form_input textarea{
+	margin-bottom:10px;
+	width:50%;
+	padding:10px 2%;
+	border-radius:7px;
+	border:2px solid silver;
+	font-size:0.9em;
+	color:#4a4a4a;
+
+}
+#form_input input:focus,#form_input textarea:focus{
+border-color:#333;
+}
+.btn{
+	float:left;
+	border-radius:5px;
+	padding:5px 9px;
+	font-size:1em;
+	background-color: #ec6550;
+	text-shadow:#b2b2b2 0 0 2px;
+	cursor:pointer;
+	color:white;
+}
+.btn:hover{
+	background-color:#c15443;
+}
